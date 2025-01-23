@@ -1,1 +1,1 @@
-# GenAI-Powered-Rescue-Drone-System
+# genAI-Powered-Rescue-Drone-System
