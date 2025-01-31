@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee7961191916cbd830831cb08a105e0a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ee7961191916cbd830831cb08a105e0a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ee7961191916cbd830831cb08a105e0a = L.map(
+                "map_ee7961191916cbd830831cb08a105e0a",
+                {
+                    center: [9.749909031225865, 77.24995986677641],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e1a1bdef7c44fc24a11e23d40d5dcb1b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e1a1bdef7c44fc24a11e23d40d5dcb1b.addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var marker_97f74c9a60e812af319210aa5f717c1e = L.marker(
+                [9.878592695675987, 77.44682566129119],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_0b0addf7a46f4bb7394bfebdea4a69df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97f74c9a60e812af319210aa5f717c1e.setIcon(icon_0b0addf7a46f4bb7394bfebdea4a69df);
+        
+    
+        var popup_3fee0a77f8e6db0488621bf7a834a436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b4cf4e1cc5bc534d8baae10d0d6f96a = $(`<div id="html_3b4cf4e1cc5bc534d8baae10d0d6f96a" style="width: 100.0%; height: 100.0%;">Safe Zone</div>`)[0];
+                popup_3fee0a77f8e6db0488621bf7a834a436.setContent(html_3b4cf4e1cc5bc534d8baae10d0d6f96a);
+            
+        
+
+        marker_97f74c9a60e812af319210aa5f717c1e.bindPopup(popup_3fee0a77f8e6db0488621bf7a834a436)
+        ;
+
+        
+    
+    
+            var marker_f6fc796b47d6f8d5cc665fb302c8586b = L.marker(
+                [9.815261468145561, 77.00000363897014],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_004328a9f02434ec52e9e240e34eec86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f6fc796b47d6f8d5cc665fb302c8586b.setIcon(icon_004328a9f02434ec52e9e240e34eec86);
+        
+    
+        var popup_30f2e905dd47b9f70a25155f2595c863 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff854d44bf825248708918fdd0fb29f4 = $(`<div id="html_ff854d44bf825248708918fdd0fb29f4" style="width: 100.0%; height: 100.0%;">Safe Zone</div>`)[0];
+                popup_30f2e905dd47b9f70a25155f2595c863.setContent(html_ff854d44bf825248708918fdd0fb29f4);
+            
+        
+
+        marker_f6fc796b47d6f8d5cc665fb302c8586b.bindPopup(popup_30f2e905dd47b9f70a25155f2595c863)
+        ;
+
+        
+    
+    
+            var marker_608ca82db0e2e34930368606e995f5f1 = L.marker(
+                [9.912279518830468, 77.31558179828133],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_5cd658a33b51250ad05491a9aa8afa80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_608ca82db0e2e34930368606e995f5f1.setIcon(icon_5cd658a33b51250ad05491a9aa8afa80);
+        
+    
+        var popup_cc4ec346a668cbf1f56b1e1e7db7ed25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab99b031cca41726b64d3b6724b2ed0 = $(`<div id="html_bab99b031cca41726b64d3b6724b2ed0" style="width: 100.0%; height: 100.0%;">Safe Zone</div>`)[0];
+                popup_cc4ec346a668cbf1f56b1e1e7db7ed25.setContent(html_bab99b031cca41726b64d3b6724b2ed0);
+            
+        
+
+        marker_608ca82db0e2e34930368606e995f5f1.bindPopup(popup_cc4ec346a668cbf1f56b1e1e7db7ed25)
+        ;
+
+        
+    
+    
+            var marker_ea65da8ac8a9f37e4366dc927a60db92 = L.marker(
+                [9.775915258701126, 77.25278955992137],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_b568ba3f669d83dc3716314eabe20822 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea65da8ac8a9f37e4366dc927a60db92.setIcon(icon_b568ba3f669d83dc3716314eabe20822);
+        
+    
+        var popup_74de1bcad44e93e2ff3e48ec7b4e1f6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32c984d20ef425592d22d3d80539b671 = $(`<div id="html_32c984d20ef425592d22d3d80539b671" style="width: 100.0%; height: 100.0%;">Safe Zone</div>`)[0];
+                popup_74de1bcad44e93e2ff3e48ec7b4e1f6b.setContent(html_32c984d20ef425592d22d3d80539b671);
+            
+        
+
+        marker_ea65da8ac8a9f37e4366dc927a60db92.bindPopup(popup_74de1bcad44e93e2ff3e48ec7b4e1f6b)
+        ;
+
+        
+    
+    
+            var marker_f19fe284bbd0e8592af40c0952363706 = L.marker(
+                [9.764057496950748, 77.29860363941147],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_234844b99d755ea4a5006132d222b9b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f19fe284bbd0e8592af40c0952363706.setIcon(icon_234844b99d755ea4a5006132d222b9b9);
+        
+    
+        var popup_ec937fa5cf0f33176dc9227acc67863d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ae835ffd1bfff7355b349bd58c0528f = $(`<div id="html_9ae835ffd1bfff7355b349bd58c0528f" style="width: 100.0%; height: 100.0%;">Safe Zone</div>`)[0];
+                popup_ec937fa5cf0f33176dc9227acc67863d.setContent(html_9ae835ffd1bfff7355b349bd58c0528f);
+            
+        
+
+        marker_f19fe284bbd0e8592af40c0952363706.bindPopup(popup_ec937fa5cf0f33176dc9227acc67863d)
+        ;
+
+        
+    
+    
+            var marker_8ce16db828b73298a3e901f0baae0cd2 = L.marker(
+                [9.937073020672168, 77.17274966810632],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_14408834de493dfa3dd5de123ac61ba3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8ce16db828b73298a3e901f0baae0cd2.setIcon(icon_14408834de493dfa3dd5de123ac61ba3);
+        
+    
+        var popup_e3d5b51e8cae2fb7cbd538d421783d8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c4e643a175921f3d7eb09ceed059e91 = $(`<div id="html_3c4e643a175921f3d7eb09ceed059e91" style="width: 100.0%; height: 100.0%;">Risky Zone</div>`)[0];
+                popup_e3d5b51e8cae2fb7cbd538d421783d8a.setContent(html_3c4e643a175921f3d7eb09ceed059e91);
+            
+        
+
+        marker_8ce16db828b73298a3e901f0baae0cd2.bindPopup(popup_e3d5b51e8cae2fb7cbd538d421783d8a)
+        ;
+
+        
+    
+    
+            var marker_c894641858b2f16dc394a3b48b1a7dd3 = L.marker(
+                [9.915243959268063, 77.18757187029429],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_460040a7915a0cca56823e5d10a90601 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c894641858b2f16dc394a3b48b1a7dd3.setIcon(icon_460040a7915a0cca56823e5d10a90601);
+        
+    
+        var popup_5330a211c2f76ab074dd4efc3fdb6ed9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24cb15879557d35f720a4c2a99331a8e = $(`<div id="html_24cb15879557d35f720a4c2a99331a8e" style="width: 100.0%; height: 100.0%;">Risky Zone</div>`)[0];
+                popup_5330a211c2f76ab074dd4efc3fdb6ed9.setContent(html_24cb15879557d35f720a4c2a99331a8e);
+            
+        
+
+        marker_c894641858b2f16dc394a3b48b1a7dd3.bindPopup(popup_5330a211c2f76ab074dd4efc3fdb6ed9)
+        ;
+
+        
+    
+    
+            var marker_5638ce68d05e33998d09d2ac389418a5 = L.marker(
+                [9.911471035074761, 77.35169407270293],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_41f2927e3450f77c5c94e823e3f825db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5638ce68d05e33998d09d2ac389418a5.setIcon(icon_41f2927e3450f77c5c94e823e3f825db);
+        
+    
+        var popup_3df786b9296da30be4ec3f167b4e15aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12bad732816b1c9affb5985a3e921eb6 = $(`<div id="html_12bad732816b1c9affb5985a3e921eb6" style="width: 100.0%; height: 100.0%;">Risky Zone</div>`)[0];
+                popup_3df786b9296da30be4ec3f167b4e15aa.setContent(html_12bad732816b1c9affb5985a3e921eb6);
+            
+        
+
+        marker_5638ce68d05e33998d09d2ac389418a5.bindPopup(popup_3df786b9296da30be4ec3f167b4e15aa)
+        ;
+
+        
+    
+    
+            var marker_25572df1e5c21013f99f6af5833f0f5b = L.marker(
+                [9.979383670554197, 77.28243396429731],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_9c7471c618367ec58bc952c32ea011d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_25572df1e5c21013f99f6af5833f0f5b.setIcon(icon_9c7471c618367ec58bc952c32ea011d9);
+        
+    
+        var popup_fec72c0fe93458278e4b8ae0f3dbc1c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cf917e20bc8536c3ae7c853d0cf6511 = $(`<div id="html_7cf917e20bc8536c3ae7c853d0cf6511" style="width: 100.0%; height: 100.0%;">Risky Zone</div>`)[0];
+                popup_fec72c0fe93458278e4b8ae0f3dbc1c4.setContent(html_7cf917e20bc8536c3ae7c853d0cf6511);
+            
+        
+
+        marker_25572df1e5c21013f99f6af5833f0f5b.bindPopup(popup_fec72c0fe93458278e4b8ae0f3dbc1c4)
+        ;
+
+        
+    
+    
+            var marker_df693025e63275b0573a7fab8f653174 = L.marker(
+                [9.868890890607496, 77.04878215889784],
+                {
+}
+            ).addTo(map_ee7961191916cbd830831cb08a105e0a);
+        
+    
+            var icon_c3c57084d9b87818518699ed6a875909 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df693025e63275b0573a7fab8f653174.setIcon(icon_c3c57084d9b87818518699ed6a875909);
+        
+    
+        var popup_46ec18c47d1d6cc19a0b4258f55abc93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88b93bf8f3b52a6ca6fc4d5314d92187 = $(`<div id="html_88b93bf8f3b52a6ca6fc4d5314d92187" style="width: 100.0%; height: 100.0%;">Risky Zone</div>`)[0];
+                popup_46ec18c47d1d6cc19a0b4258f55abc93.setContent(html_88b93bf8f3b52a6ca6fc4d5314d92187);
+            
+        
+
+        marker_df693025e63275b0573a7fab8f653174.bindPopup(popup_46ec18c47d1d6cc19a0b4258f55abc93)
+        ;
+
+        
+    
+</script>
+</html>
